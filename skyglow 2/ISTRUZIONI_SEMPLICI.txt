@@ -1,0 +1,50 @@
+🌅 SKYGLOW - ISTRUZIONI SEMPLICI PER CARICARE SU VERCEL
+
+=== COSA FARE (PASSO PASSO) ===
+
+1. CARICA SU GITHUB:
+   - Vai su [github.com](https://github.com) e accedi (o registrati gratis)
+   - Clicca "New repository" (bottone verde)
+   - Nome: `skyglow`
+   - Clicca "Create repository"
+   - Carica TUTTI i file di questa cartella nel repository
+     (assicurati che non ci siano cartelle `node_modules` o `.next`)
+
+2. DEPLOY SU VERCEL:
+   - Vai su [vercel.com](https://vercel.com)
+   - Clicca "Sign Up" e scegli "Continue with GitHub"
+   - Clicca "New Project"
+   - Seleziona il repository `skyglow`
+   - **IMPORTANTE**: Vercel dovrebbe rilevare automaticamente che è un progetto Next.js.
+     Assicurati che il campo "Framework Preset" sia impostato su "Next.js".
+     Lascia le altre impostazioni predefinite.
+   - Clicca "Deploy"
+   - Aspetta 2-3 minuti
+   - Il tuo sito sarà online!
+
+=== COSA CONTIENE QUESTA CARTELLA ===
+
+✅ Tutto il codice dell'app Skyglow
+✅ Design responsive per telefono
+✅ API gratuite già configurate
+✅ Icone (nella cartella `public`)
+✅ Documentazione completa
+
+=== DIMENSIONE ===
+
+Questa cartella pesa meno di 25MB (senza `node_modules` e `.next`)
+Vercel installerà automaticamente tutto quello che serve
+
+=== DOPO IL DEPLOY ===
+
+Il tuo sito avrà un URL tipo: `https://skyglow-xyz.vercel.app`
+
+=== PROBLEMI? ===
+
+Se Vercel ti dà ancora errori:
+- Verifica che tutti i file siano stati caricati su GitHub.
+- Controlla i log di build su Vercel per vedere se ci sono messaggi di errore specifici.
+- Assicurati che il "Framework Preset" sia "Next.js" quando fai il deploy.
+
+Buona fortuna! 🚀
+
